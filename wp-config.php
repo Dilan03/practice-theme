@@ -79,7 +79,8 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true ); /* Change to false in production mode */
+define('WP_DISABLE_FATAL_ERROR_HANDLER', true);/* get rid of this line in production mode */
 
 /* Add any custom values between this line and the "stop editing" line. */
 
