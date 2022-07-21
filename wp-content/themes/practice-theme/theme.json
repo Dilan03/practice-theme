@@ -28,6 +28,14 @@
       "custom": true,
       "duotone": [
         {"slug": "u-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Udemy Pink Sunset"}
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "u-summer-dog",
+          "name": "Udemy Summer Dog",
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+        }
       ]
     },
     "blocks": {
@@ -37,14 +45,36 @@
           "palette": [
             {"slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary"}
           ],
-          "link": false,
-          "custom": false
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
         }
       },
       "core/cover": {
         "color": {
           "duotone": [],
           "customDuotone": false
+        }
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--u-gray-700)",
+      "background": "var(--wp--preset--color--u-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--u-primary)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--u-summer-dog)"
         }
       }
     }
