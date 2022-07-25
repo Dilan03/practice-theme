@@ -81,11 +81,15 @@
       ],
       "fontSizes": [
         {"slug": "small", "size": "0.75rem", "name": "Small"},
-        {"slug": "medium", "size": "1.5rem", "name": "Medium"},
+        {"slug": "medium", "size": "1.5rem", "name": "Mfsfedium"},
         {"slug": "large", "size": "2.25rem", "name": "Large"},
         {"slug": "x-large", "size": "3rem", "name": "Extra Large"},
         {"slug": "gigantic", "size": "3.75rem", "name": "Gigantic"}
       ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
     }
   },
   "styles": {
