@@ -1,1 +1,1 @@
-console.log('hola');
+import registerBlockType from '@wordpress/blocks';
