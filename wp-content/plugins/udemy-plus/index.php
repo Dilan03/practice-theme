@@ -14,5 +14,6 @@
  */
 
  if(!function_exists('add_action')) {
+  echo 'tests plugin';
   exit;
  }
